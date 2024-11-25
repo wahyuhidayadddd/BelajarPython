@@ -121,3 +121,8 @@ print(thisList)
 thisList = ["harimau","kucing","singa"]
 thisList.pop(1)
 print(thisList)
+
+
+
+
+# Loop Through a List
