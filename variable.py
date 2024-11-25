@@ -86,4 +86,38 @@ else:
 
 
 
-    
+
+# LIST ITEMS
+
+makanan = ["sopBuah","buburAyam","coklat","mentega",]
+print(makanan[1:3])
+
+
+# Insert Items
+
+iniList = ["apple","mangga","jeruk"]
+iniList.insert(0,"mellon")
+print(iniList)
+
+
+
+
+# Append Items
+
+thisList = ["babi","kucing","ayam","harimau","singa"]
+thisList.append("toluimau")
+print(thisList)
+
+
+# REMOVE ITEMS
+thisList = ["apel","jeruk","mangga","buahnaga"]
+thisList.remove("apel")
+print(thisList)
+
+
+
+# Remove Specified Index
+
+thisList = ["harimau","kucing","singa"]
+thisList.pop(1)
+print(thisList)
